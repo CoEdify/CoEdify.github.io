@@ -9,7 +9,8 @@
 	width:250px;
 	height:80px;
 	position:relative;
-	right:425px;
+	right:380px;
+	bottom:20px;
 }
 /*--------------------------------------------------------------
 # General
@@ -177,7 +178,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 100px;
+  height: 70px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
