@@ -10,6 +10,43 @@
 	right:40px;
 	bottom:20px;
 }
+.banner
+{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508841037) 0%, rgba(42,127,178,1) 0%, rgba(0,217,255,1) 100%);
+	margin-bottom:1px;
+	display: flex;
+	padding-left:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	margin-top:-20px;
+	margin-bottom:5px;
+	color:white;
+}
+.deadline
+{
+	background-color:white;
+	color:#413e66;
+	border-radius:2px;
+	font-weight:bold;
+}
+.limited
+{
+	position:relative;
+	top:12px;
+	left:5px;
+	background-color:white;
+	border-radius:5px;
+	padding:5px;
+	font-weight:bold;
+	color:#413e66;
+}
+.text
+{
+	font-weight:bold;
+	font-size:18px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -176,7 +213,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 70px;
+  height: 120px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
