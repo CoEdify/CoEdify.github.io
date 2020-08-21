@@ -30,18 +30,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 	color:#413e66;
 	border-radius:2px;
 	font-weight:bold;
-	width:60%;
 }
 .limited
 {
 	position:relative;
 	top:12px;
 	left:5px;
+	width:80%;
 	background-color:white;
 	border-radius:5px;
 	padding:5px;
 	font-weight:bold;
-	color:#413e66;
+	color:#fa0707;
 }
 .text
 {
