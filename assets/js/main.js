@@ -4,6 +4,54 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+function getTime()
+		{
+			var date=new Date();
+			var comingdate= new Date("September 1, 2020 00:00:00");
+			
+		 
+			var hr=formatTime(date.getHours());
+			var min=formatTime(date.getMinutes());
+			var sec=formatTime(date.getSeconds());
+			document.getElementById("time").innerHTML=hr+":"+min+":"+sec;
+		}
+		function formatTime(time)
+		{
+			if(time>9)
+				return time;
+			else
+				return "0"+time;
+		}
+		var opacity=1;
+		var bool=true;
+		var date=new Date();
+		function slider()
+		{
+			var slider=document.getElementById("slider");
+			var slider2=document.getElementById("slider2");
+			if(bool)
+				opacity=opacity-0.1;
+			else
+				opacity=opacity+0.1;
+			slider.style.opacity=opacity;
+			slider2.style.opacity=opacity;
+			if(opacity<=0)
+			{
+				date=new Date();
+				slider.innerHTML="We are starting our evaluation class for free.";
+				slider2.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
+				bool=false;
+			}
+			else if(opacity>=1)
+			{
+				slider.innerHTML="Finding hard to get a good IT job after the gap, not to worry.";
+				slider2.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
+				
+				bool=true;
+			}
+		}
+		//setInterval(getTime,1000);
+		setInterval(slider,200);
 (function ($) {
   "use strict";
 
