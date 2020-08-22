@@ -45,7 +45,7 @@ function getTime()
 			else if(opacity>=1)
 			{
 				slider.innerHTML="Finding hard to get a good IT job after the gap, not to worry.";
-				slider2.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
+				slider2.innerHTML="Learn from top level MNC professionals.";
 				
 				bool=true;
 			}
