@@ -27,7 +27,7 @@ function getTime()
 		function slider()
 		{
 			var slider=document.getElementById("slider");
-			var slider2=document.getElementById("slider2");
+			//var slider2=document.getElementById("slider2");
 			var slidersm=document.getElementById("slidersm");
 			//var slider2sm=document.getElementById("slider2sm");
 			if(bool)
@@ -35,13 +35,13 @@ function getTime()
 			else
 				opacity=opacity+0.1;
 			slider.style.opacity=opacity;
-			slider2.style.opacity=opacity;
+			//slider2.style.opacity=opacity;
 			slidersm.style.opacity=opacity;
 			//slider2sm.style.opacity=opacity;
 			if(opacity<=0)
 			{
 				slider.innerHTML="We are starting our evaluation class for free.";
-				slider2.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
+				//slider2.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
 				slidersm.innerHTML="Learn from top level MNC professionals.";
 				//slider2sm.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp.";
 				bool=false;
@@ -49,7 +49,7 @@ function getTime()
 			else if(opacity>=1)
 			{
 				slider.innerHTML="Finding hard to get a good IT job after the gap, not to worry.";
-				slider2.innerHTML="Learn from top level MNC professionals.";
+				//slider2.innerHTML="Learn from top level MNC professionals.";
 				slidersm.innerHTML="Prepare yourself for the market with CoEdify Interview Preparation Bootcamp..";
 				//slider2sm.innerHTML="Learn from top level MNC professionals.";
 				bool=true;
