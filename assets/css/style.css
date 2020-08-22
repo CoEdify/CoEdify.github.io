@@ -48,6 +48,25 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 	font-weight:bold;
 	font-size:18px;
 }
+@media (max-width: 991px) {
+	.smallchanges
+	{
+		padding-top:320px;
+	}
+}
+
+@media (max-width: 991px) {
+	.small
+	{
+		display:none;
+	}
+}
+@media (max-width: 991px) {
+	.smalllogo
+	{
+		background-color: #fff;
+	}
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
