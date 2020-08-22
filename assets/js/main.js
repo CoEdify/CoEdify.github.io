@@ -4,7 +4,7 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
-function getTime()
+/*function getTime()
 		{
 			var date=new Date();
 			var comingdate= new Date("September 1, 2020 00:00:00");
@@ -56,7 +56,7 @@ function getTime()
 			}
 		}
 		//setInterval(getTime,1000);
-		setInterval(slider,200);
+		setInterval(slider,200);*/
 (function ($) {
   "use strict";
 
