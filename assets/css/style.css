@@ -57,8 +57,9 @@
 .newlogo
 {
 	position:relative;
-	right:40px;
+	right:15px;
 	bottom:20px;
+	height:75px;
 }
 .banner
 {
@@ -112,7 +113,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 }
 
 @media (max-width: 991px) {
-	.small
+	.smallvisible
 	{
 		display:none;
 	}
