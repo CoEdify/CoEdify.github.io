@@ -4,10 +4,10 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
-function afterload()
+/*function afterload()
 {
 	document.getElementById("loading").setAttribute("style","display:none");
-}
+}*/
 /*function getTime()
 		{
 			var date=new Date();
