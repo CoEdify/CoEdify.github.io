@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+	.smallvisible
+	{
+		display:none;
+	}
+}
+@media (min-width: 991px) {
+	.largevisible
+	{
+		display:none;
+	}
+}
+@media (min-width: 991px) {
+	.largelogo
+	{
+		position:relative;
+		right:110px;
+	}
+}
