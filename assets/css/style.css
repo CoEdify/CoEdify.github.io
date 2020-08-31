@@ -94,6 +94,19 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 	font-weight:bold;
 	color:#413E66;
 }
+.limitedsmall
+{
+	position:relative;
+	bottom:20px;
+	left:65px;
+	width:50%;
+	text-align:center;
+	background-color:white;
+	border-radius:5px;
+	padding:5px;
+	font-weight:bold;
+	color:#413E66;
+}
 .text
 {
 	font-weight:bold;
