@@ -97,7 +97,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 .limitedsmall
 {
 	position:relative;
-	bottom:20px;
+	bottom:15px;
 	left:65px;
 	width:50%;
 	text-align:center;
