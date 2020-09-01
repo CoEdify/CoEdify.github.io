@@ -964,23 +964,80 @@ If you are a fresher or an experienced IT professional waiting for a big shot in
       </section>
       <!-- End Pricing Section -->
 
-      <!-- ======= Test your knowledge Section ======= -->
-      <section id="call-to-action" class="call-to-action wow fadeInUp" hidden>
+      <!-- ======= Test your skills Section ======= -->
+      <section id="call-to-action" class="call-to-action wow fadeInUp">
+	  <header class="section-header">
+	  <h3 style="color:#1bb1dc;">Test Your Skills</h3>
+	  <hr style="border-color:#fff"/><br/>
+	  </header>
         <div class="container">
           <div class="row">
-            <div class="col-lg-9 text-center text-lg-left">
-              <h3 class="cta-title">Test your knowledge</h3>
-              <p class="cta-text">
-                Got solid DS & Algo, design patterns and OOPS concepts? Let's test them!
+            <div class="col-xs-12 col-lg-offset-2 col-lg-10 test-skills-style text-center text-lg-left">
+				<div class="table-responsive" style="background-color:#fff;border-radius:5px;" id="per-table" hidden>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+						<th style="color:#413e66;"><b id="per-des"></b></th>
+						<th style="color:#413e66;">Your response</th>
+							<th style="color:#413e66;">Answer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Which of these is a class in JAVA ?</td>
+							<td  id="ans-1"></td>
+						<td>Throwable</td>
+						</tr>
+						<tr>
+							<td>Which of the data structure is suitable to represent hierarchical relationship between elements?</td>
+							<td  id="ans-2"></td>
+						<td>Tree</td>
+						</tr>
+						<tr>
+							<td>Which of the following is used to find and fix bugs in the JAVA programs ?</td>
+							<td  id="ans-3"></td>
+						<td>JDB</td>
+						</tr>
+						<tr>
+						<td style="color:#413e66;"><b>Performance</b></td>
+						<td id="per"></td>
+						<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+              <h3 class="cta-title test-skills" id="ques1">Which of these is a class in JAVA ?</h3>
+              <p class="cta-text test-skills" id="q1">
+                <input type="radio"  name="ques1" value="Serializable"> Serializable<br>
+				<input type="radio"  name="ques1" value="Cloneable"> Cloneable<br>
+				<input type="radio"  name="ques1" value="Throwable"> Throwable<br>
+				<input type="radio"  name="ques1" value="List"> List<br>
+              </p>
+			  <h3 class="cta-title test-skills" id="ques2" hidden>Which of the data structure is suitable to represent hierarchical relationship between elements?</h3>
+              <p class="cta-text test-skills" id="q2" hidden>
+                <input type="radio"  name="ques2" value="Graph"> Graph<br>
+				<input type="radio"  name="ques2" value="Tree"> Tree<br>
+				<input type="radio"  name="ques2" value="Priority Queue"> Priority Queue<br>
+				<input type="radio"  name="ques2" value="Dequeue"> Dequeue<br>
+              </p>
+			  <h3 class="cta-title test-skills" id="ques3" hidden>Which of the following is used to find and fix bugs in the JAVA programs ?</h3>
+              <p class="cta-text test-skills" id="q3" hidden>
+                <input type="radio"  name="ques3" value="JRE"> JRE<br>
+				<input type="radio"  name="ques3" value="JVM"> JVM<br>
+				<input type="radio"  name="ques3" value="JDK"> JDK<br>
+				<input type="radio"  name="ques3" value="JDB"> JDB<br>
               </p>
             </div>
-            <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Test your knowledge</a>
+            <div class="col-lg-3 text-center" id="btnsubmit">
+              <button class="btn btn-default align-middle" style="background-color:#fff" onclick="Ques()">Submit</button>
+            </div>
+			<div class="col-lg-2 text-center" hidden>
+              <button class="btn btn-default align-middle" style="background-color:#fff;margin-left:-50px;">Next</button>
             </div>
           </div>
         </div>
       </section>
-      <!--  End Call To Action Section -->
+      <!--  End Test your skills Section -->
 
       <!-- ======= Team Section ======= -->
       <section id="team" class="team section-bg" hidden>
