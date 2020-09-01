@@ -6,7 +6,7 @@
  */
  function Ques()
  {
-	 var selected=[true,true,true];
+	 var selected=[false,false,false];
 	 var per=0;
 	 if(!document.getElementById("ques1").hasAttribute('hidden'))
 	 {
