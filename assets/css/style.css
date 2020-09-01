@@ -4,6 +4,21 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+@media (min-width: 991px) 
+{
+	.test-skills-style
+	{
+	position:relative;
+	left:100px;
+	}
+}
+@media (max-width: 991px) 
+{
+	.test-skills
+	{
+	text-align:left;
+	}
+}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 .item-1, 
 .item-2, 
@@ -116,7 +131,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,69,121,0.7020588508
 	.smallpushbutton
 	{
 	position:relative;
-	bottom:15px;
+	bottom:17px;
 	}
 }
 @media (min-width: 991px) {
