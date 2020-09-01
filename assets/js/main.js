@@ -4,6 +4,104 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+ function Ques()
+ {
+	 var selected=[true,true,true];
+	 var per=0;
+	 if(!document.getElementById("ques1").hasAttribute('hidden'))
+	 {
+	 var ans=document.getElementsByName("ques1");
+	if(ans[2].checked)
+		selected[0]=true;
+	else
+		selected[0]=false;
+	document.getElementById("ques2").removeAttribute('hidden');
+	document.getElementById("q2").removeAttribute('hidden');
+	document.getElementById("ques1").hidden=true;
+	document.getElementById("q1").hidden=true;
+	 }
+	 else if (!document.getElementById("ques2").hasAttribute('hidden'))
+	 {
+		 var ans=document.getElementsByName("ques2");
+	 if(ans[1].checked)
+		selected[1]=true;
+	else
+		selected[1]=false;	
+	document.getElementById("ques3").removeAttribute('hidden');
+	document.getElementById("q3").removeAttribute('hidden');
+	document.getElementById("ques2").hidden=true;
+	document.getElementById("q2").hidden=true;
+	 }
+	else if (!document.getElementById("ques3").hasAttribute('hidden'))
+	 {
+		 var ans=document.getElementsByName("ques3");
+	 if(ans[3].checked)
+		selected[2]=true;
+	else
+		selected[2]=false;
+	document.getElementById("ques3").hidden=true;
+	document.getElementById("q3").hidden=true;
+	document.getElementById("btnsubmit").hidden=true;
+	document.getElementById("per-table").removeAttribute('hidden');
+	if(selected[0])
+	{
+		var el=document.getElementById("ans-1");
+		el.innerHTML='Correct';
+		el.setAttribute('style','color:green');
+		per++;
+	}
+	else
+	{
+		var el=document.getElementById("ans-1");
+		el.innerHTML='Incorrect';
+		el.setAttribute('style','color:red');
+	}
+	if(selected[1])
+	{
+		var el=document.getElementById("ans-2");
+		el.innerHTML='Correct';
+		el.setAttribute('style','color:green');
+		per++;
+	}
+	else
+	{
+		var el=document.getElementById("ans-2");
+		el.innerHTML='Incorrect';
+		el.setAttribute('style','color:red');
+	}
+	if(selected[2])
+	{
+		var el=document.getElementById("ans-3");
+		el.innerHTML='Correct';
+		el.setAttribute('style','color:green');
+		per++;
+	}
+	else
+	{
+		var el=document.getElementById("ans-3");
+		el.innerHTML='Incorrect';
+		el.setAttribute('style','color:red');
+	}
+	if(per==0)
+		performance="0 %";
+	else
+	{
+		performance=(per/3)*100;
+		performance=performance.toFixed(2) + " %";
+	}
+	document.getElementById("per").innerHTML=performance;
+	var des=document.getElementById("per-des");
+	if(per==0)
+		des.innerHTML="Need to work on basics, <a href='#pricing'>Check these programs</a>";
+	else if(per==1)
+		des.innerHTML="You need our programs, <a href='#pricing'>Check these programs</a>";
+	else if(per==2)
+		des.innerHTML="You can do better, <a href='#pricing'>Check these programs</a>";
+	else if(per==3)
+		des.innerHTML="Excellent !!  enhance your skills, <a href='#pricing'>Check these programs</a>";
+	 }
+	 
+ }
 /*function afterload()
 {
 	document.getElementById("loading").setAttribute("style","display:none");
