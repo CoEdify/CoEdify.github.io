@@ -4,9 +4,9 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+var selected=[false,false,false];
  function Ques()
  {
-	 var selected=[false,false,false];
 	 var per=0;
 	 if(!document.getElementById("ques1").hasAttribute('hidden'))
 	 {
